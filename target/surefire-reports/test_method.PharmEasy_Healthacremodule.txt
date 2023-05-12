@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: test_method.PharmEasy_Healthacremodule
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.257 s - in test_method.PharmEasy_Healthacremodule

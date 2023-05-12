@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T15:13:03 IST" name="Surefire suite" finished-at="2023-05-12T15:13:43 IST" duration-ms="40066">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T15:13:03 IST" name="Surefire test" finished-at="2023-05-12T15:13:43 IST" duration-ms="40066">
+      <class name="test_method.PharmEasy_Healthacremodule">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:12:57 IST" name="Launch" finished-at="2023-05-12T15:13:03 IST" duration-ms="6583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="x()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:03 IST" name="x" finished-at="2023-05-12T15:13:03 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+        <test-method signature="Healthcare_module()[pri:1, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:03 IST" name="Healthcare_module" finished-at="2023-05-12T15:13:05 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:05 IST" name="run" finished-at="2023-05-12T15:13:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Topcare_Healthcare_module()[pri:2, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:05 IST" name="Topcare_Healthcare_module" finished-at="2023-05-12T15:13:08 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Topcare_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:08 IST" name="run" finished-at="2023-05-12T15:13:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Diabetic_Healthcare_module()[pri:3, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:08 IST" name="Diabetic_Healthcare_module" finished-at="2023-05-12T15:13:09 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diabetic_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:09 IST" name="run" finished-at="2023-05-12T15:13:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Everherb_Healthcare_module()[pri:4, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:09 IST" name="Everherb_Healthcare_module" finished-at="2023-05-12T15:13:10 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Everherb_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:10 IST" name="run" finished-at="2023-05-12T15:13:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Pharmeasy_Healthcare_module()[pri:5, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:10 IST" name="Pharmeasy_Healthcare_module" finished-at="2023-05-12T15:13:11 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pharmeasy_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:11 IST" name="run" finished-at="2023-05-12T15:13:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Popularity_Healthcare_module()[pri:6, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:11 IST" name="Popularity_Healthcare_module" finished-at="2023-05-12T15:13:15 IST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Popularity_Healthcare_module -->
+        <test-method signature="All_categories_Healthcare_module()[pri:7, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:15 IST" name="All_categories_Healthcare_module" finished-at="2023-05-12T15:13:17 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_categories_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:15 IST" name="run" finished-at="2023-05-12T15:13:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Mostloved_Healthcare_module()[pri:8, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:17 IST" name="Mostloved_Healthcare_module" finished-at="2023-05-12T15:13:20 IST" duration-ms="3443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mostloved_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:17 IST" name="run" finished-at="2023-05-12T15:13:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:20 IST" name="run" finished-at="2023-05-12T15:13:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Mostlovedpopularity_Healthcare_module()[pri:9, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:20 IST" name="Mostlovedpopularity_Healthcare_module" finished-at="2023-05-12T15:13:24 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mostlovedpopularity_Healthcare_module -->
+        <test-method signature="All_categoriesback_Healthcare_module()[pri:10, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:24 IST" name="All_categoriesback_Healthcare_module" finished-at="2023-05-12T15:13:25 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_categoriesback_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:24 IST" name="run" finished-at="2023-05-12T15:13:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:25 IST" name="run" finished-at="2023-05-12T15:13:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Personalcare_Healthcare_module()[pri:11, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:25 IST" name="Personalcare_Healthcare_module" finished-at="2023-05-12T15:13:27 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personalcare_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:27 IST" name="run" finished-at="2023-05-12T15:13:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Appliacnes_Personalcare_Healthcare_module()[pri:12, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:27 IST" name="Appliacnes_Personalcare_Healthcare_module" finished-at="2023-05-12T15:13:28 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appliacnes_Personalcare_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:28 IST" name="run" finished-at="2023-05-12T15:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Oralcare_Personalcare_Healthcare_module()[pri:13, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:28 IST" name="Oralcare_Personalcare_Healthcare_module" finished-at="2023-05-12T15:13:29 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oralcare_Personalcare_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:29 IST" name="run" finished-at="2023-05-12T15:13:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Anchor_Personalcare_Healthcare_module()[pri:14, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:29 IST" name="Anchor_Personalcare_Healthcare_module" finished-at="2023-05-12T15:13:30 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Anchor_Personalcare_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:30 IST" name="run" finished-at="2023-05-12T15:13:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Brand_Personalcare_Healthcare_module()[pri:15, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:30 IST" name="Brand_Personalcare_Healthcare_module" finished-at="2023-05-12T15:13:31 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand_Personalcare_Healthcare_module -->
+        <test-method signature="Popularitypc_Healthcare_module()[pri:16, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:31 IST" name="Popularitypc_Healthcare_module" finished-at="2023-05-12T15:13:35 IST" duration-ms="4136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Popularitypc_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:31 IST" name="run" finished-at="2023-05-12T15:13:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:35 IST" name="run" finished-at="2023-05-12T15:13:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="All_categoriesReback_Healthcare_module()[pri:17, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:35 IST" name="All_categoriesReback_Healthcare_module" finished-at="2023-05-12T15:13:37 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_categoriesReback_Healthcare_module -->
+        <test-method signature="Fitness_Healthcare_module()[pri:18, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:37 IST" name="Fitness_Healthcare_module" finished-at="2023-05-12T15:13:40 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fitness_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:37 IST" name="run" finished-at="2023-05-12T15:13:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:40 IST" name="run" finished-at="2023-05-12T15:13:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Viewmore_Healthcare_module()[pri:19, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:40 IST" name="Viewmore_Healthcare_module" finished-at="2023-05-12T15:13:41 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Viewmore_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:41 IST" name="run" finished-at="2023-05-12T15:13:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="Specialitysupplements_Healthcare_module()[pri:20, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:41 IST" name="Specialitysupplements_Healthcare_module" finished-at="2023-05-12T15:13:42 IST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Specialitysupplements_Healthcare_module -->
+        <test-method signature="Apply_Healthcare_module()[pri:21, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:42 IST" name="Apply_Healthcare_module" finished-at="2023-05-12T15:13:43 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apply_Healthcare_module -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:42 IST" name="run" finished-at="2023-05-12T15:13:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="run()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:43 IST" name="run" finished-at="2023-05-12T15:13:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="y()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:43 IST" name="y" finished-at="2023-05-12T15:13:43 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- y -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test_method.PharmEasy_Healthacremodule@4386f16]" started-at="2023-05-12T15:13:43 IST" name="close" finished-at="2023-05-12T15:13:43 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test_method.PharmEasy_Healthacremodule -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

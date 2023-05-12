@@ -1,0 +1,9 @@
+test_method\PharmEasy_Homepage.class
+test_method\PharmEasy_Medicinemodule.class
+test_method\PharmEasy_medicine1module.class
+test_method\PharmEasy_Signin.class
+test_page\PharmEasy_page.class
+test_method\PharmEasy_Labtestmodule.class
+test_method\PharmEasy_Healthacremodule.class
+test_base\PharmEasy_base.class
+test_method\PharmEasy_Cartpage.class

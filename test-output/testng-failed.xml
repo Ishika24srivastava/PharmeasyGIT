@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test_method.PharmEasy_Healthacremodule">
+        <methods>
+          <include name="All_categoriesReback_Healthcare_module"/>
+          <include name="x"/>
+          <include name="y"/>
+          <include name="Viewmore_Healthcare_module"/>
+          <include name="Apply_Healthcare_module"/>
+          <include name="Oralcare_Personalcare_Healthcare_module"/>
+          <include name="Healthcare_module"/>
+          <include name="Launch"/>
+          <include name="Personalcare_Healthcare_module"/>
+          <include name="All_categories_Healthcare_module"/>
+          <include name="All_categoriesback_Healthcare_module"/>
+          <include name="Anchor_Personalcare_Healthcare_module"/>
+          <include name="close"/>
+          <include name="Popularitypc_Healthcare_module"/>
+          <include name="Appliacnes_Personalcare_Healthcare_module"/>
+          <include name="Mostloved_Healthcare_module"/>
+          <include name="Diabetic_Healthcare_module"/>
+          <include name="Brand_Personalcare_Healthcare_module"/>
+          <include name="Mostlovedpopularity_Healthcare_module"/>
+          <include name="Topcare_Healthcare_module"/>
+          <include name="Pharmeasy_Healthcare_module"/>
+          <include name="Everherb_Healthcare_module"/>
+          <include name="run"/>
+          <include name="Popularity_Healthcare_module"/>
+          <include name="Fitness_Healthcare_module"/>
+          <include name="Specialitysupplements_Healthcare_module"/>
+        </methods>
+      </class> <!-- test_method.PharmEasy_Healthacremodule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
