@@ -411,19 +411,47 @@ public class PharmEasy_page extends PharmEasy_base
 	@FindBy(xpath="//button[text()='Apply']")
 	WebElement Apply;
 	
+	@FindBy(xpath="//div[text()='Payment']")
+	WebElement Payment;
 	
+	@FindBy(xpath="//div[text()='Medicine']")
+	WebElement Medicine_off;
 	
+	@FindBy(xpath="//div[text()='Diagnostic']")
+	WebElement Diagnostic;
 	
+	@FindBy(xpath="//div[text()='Healthcare']")
+	WebElement Healtcare;
 	
+	@FindBy(xpath="//div[text()='Flat 15% OFF + Rs. 200 OFF']")
+	WebElement Offer1;
 	
+	@FindBy(xpath="//button[text()='COPY CODE']")
+	WebElement Code1;
 	
+	@FindBy(xpath="(//span[text()='Offers'])[2]")
+	WebElement Offerback;
 	
+	@FindBy(xpath="//div[text()='Order medicines worth Rs.999 & get FLAT Rs.600 OFF on your first lab test']")
+	WebElement Offer2;
 	
+	@FindBy(xpath="//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']")
+	WebElement Offer3;
 	
+	@FindBy(xpath="//table[@class='OfferTable_offerTable__8E_ux']")
+	WebElement table;
 	
+	@FindBy(xpath="(//i[text()='Read More'])[2]")
+	WebElement More;
 	
+	@FindBy(xpath="//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']")
+	WebElement Offerq1;
 	
+	@FindBy(xpath="//span[text()='How to get updates about PharmEasy offers and discounts?']")
+	WebElement Offerq2;
 	
+	@FindBy(xpath="//span[text()='How to cancel a coupon/promo code?']")
+	WebElement Offerq3;
 	
 	
 	
@@ -439,6 +467,62 @@ public class PharmEasy_page extends PharmEasy_base
 	public WebElement Renal_kidney()
 	{
 		return Reanal_kidney;
+	}
+	public WebElement Offer1()
+	{
+		return Offer1;
+	}
+	public WebElement Code()
+	{
+		return Code1;
+	}
+	public WebElement Offerreback()
+	{
+		return Offerback;
+	}
+	public WebElement Offer2()
+	{
+		return Offer2;
+	}
+	public WebElement Offer3()
+	{
+		return Offer3;
+	}
+	public WebElement table()
+	{
+		return table;
+	}
+	public WebElement Offerq1()
+	{
+		return Offerq1;
+	}
+	public WebElement Offerq2()
+	{
+		return Offerq2;
+	}
+	public WebElement Offerq3()
+	{
+		return Offerq3;
+	}
+	public WebElement Readmore()
+	{
+		return More;
+	}
+	public WebElement Payment()
+	{
+		return Payment;
+	}
+	public WebElement Medicine_off()
+	{
+		return Medicine_off;
+	}
+	public WebElement Diagnostic()
+	{
+		return Diagnostic;
+	}
+	public WebElement Healthoffercare()
+	{
+		return Healtcare;
 	}
 	
 	public WebElement Most_loved()

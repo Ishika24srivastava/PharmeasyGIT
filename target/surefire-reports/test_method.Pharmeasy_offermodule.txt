@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------
+Test set: test_method.Pharmeasy_offermodule
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 231.136 s <<< FAILURE! - in test_method.Pharmeasy_offermodule
+test_method.Pharmeasy_offermodule.Move1_offer  Time elapsed: 30.043 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Move1_offer(Pharmeasy_offermodule.java:129)
+
+test_method.Pharmeasy_offermodule.Code1_offer  Time elapsed: 30.047 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='COPY CODE']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//button[text()='COPY CODE']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Code1_offer(Pharmeasy_offermodule.java:142)
+
+test_method.Pharmeasy_offermodule.Code2_offer  Time elapsed: 1.649 s  <<< FAILURE!
+java.lang.AssertionError: expected [Order medicines worth Rs.999 & get FLAT Rs.600 OFF on your first lab test] but found [PharmEasy™ Offers & Coupon Codes: Upto 80% OFF, Cashbacks & more]
+	at test_method.Pharmeasy_offermodule.Code2_offer(Pharmeasy_offermodule.java:172)
+
+test_method.Pharmeasy_offermodule.Move3_offer  Time elapsed: 30.033 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Move3_offer(Pharmeasy_offermodule.java:182)
+
+test_method.Pharmeasy_offermodule.Table_offer  Time elapsed: 30.017 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='OfferTable_offerTable__8E_ux']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//table[@class='OfferTable_offerTable__8E_ux']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Table_offer(Pharmeasy_offermodule.java:196)
+
+test_method.Pharmeasy_offermodule.Q1_offer  Time elapsed: 30.031 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Q1_offer(Pharmeasy_offermodule.java:209)
+
+test_method.Pharmeasy_offermodule.Q2_offer  Time elapsed: 30.032 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='How to get updates about PharmEasy offers and discounts?']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='How to get updates about PharmEasy offers and discounts?']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Q2_offer(Pharmeasy_offermodule.java:222)
+
+test_method.Pharmeasy_offermodule.Q3_offer  Time elapsed: 30.013 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+	at test_method.Pharmeasy_offermodule.Q3_offer(Pharmeasy_offermodule.java:235)
+

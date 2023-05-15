@@ -1,75 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="6" failed="8" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-05-15T11:35:43 IST" name="Surefire suite" finished-at="2023-05-15T11:39:24 IST" duration-ms="220575">
-    <groups>
-    </groups>
-    <test started-at="2023-05-15T11:35:43 IST" name="Surefire test" finished-at="2023-05-15T11:39:24 IST" duration-ms="220575">
-      <class name="test_method.Pharmeasy_offermodule">
-        <test-method is-config="true" signature="Launch()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:33 IST" name="Launch" finished-at="2023-05-15T11:35:43 IST" duration-ms="9858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launch -->
-        <test-method is-config="true" signature="x()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:43 IST" name="x" finished-at="2023-05-15T11:35:43 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- x -->
-        <test-method signature="Offers()[pri:1, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:43 IST" name="Offers" finished-at="2023-05-15T11:35:46 IST" duration-ms="2638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Offers -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:46 IST" name="run1" finished-at="2023-05-15T11:35:46 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Offers_payment()[pri:2, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:46 IST" name="Offers_payment" finished-at="2023-05-15T11:35:47 IST" duration-ms="1060" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Offers_payment -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:47 IST" name="run1" finished-at="2023-05-15T11:35:47 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Healthcare_offer()[pri:3, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:47 IST" name="Healthcare_offer" finished-at="2023-05-15T11:35:48 IST" duration-ms="1070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Healthcare_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:48 IST" name="run1" finished-at="2023-05-15T11:35:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Diagnostic_offer()[pri:4, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:48 IST" name="Diagnostic_offer" finished-at="2023-05-15T11:35:49 IST" duration-ms="1063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Diagnostic_offer -->
-        <test-method signature="Offers_medicine()[pri:5, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:49 IST" name="Offers_medicine" finished-at="2023-05-15T11:35:50 IST" duration-ms="1059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Offers_medicine -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:49 IST" name="run1" finished-at="2023-05-15T11:35:49 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:50 IST" name="run1" finished-at="2023-05-15T11:35:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Move1_offer()[pri:6, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:35:50 IST" name="Move1_offer" finished-at="2023-05-15T11:36:20 IST" duration-ms="30039" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']"}
+<!-- Generated by org.testng.reporters.JUnitReportReporter -->
+<testsuite hostname="BINTERNS-QA35L" failures="1" tests="14" name="test_method.Pharmeasy_offermodule" time="220.264" errors="7" timestamp="2023-05-15T11:39:24 IST" skipped="0">
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Offers" time="2.638"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Offers_payment" time="1.060"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Healthcare_offer" time="1.070"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Diagnostic_offer" time="1.064"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Offers_medicine" time="1.059"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Move1_offer" time="30.039">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&#039;Flat 15% OFF + Rs. 200 OFF on medicine order.&#039;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']}]
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()=&#039;Flat 15% OFF + Rs. 200 OFF on medicine order.&#039;]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']"}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Flat 15% OFF + Rs. 200 OFF on medicine order.']"}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
@@ -132,30 +84,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Move1_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:20 IST" name="run1" finished-at="2023-05-15T11:36:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Code1_offer()[pri:7, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:20 IST" name="Code1_offer" finished-at="2023-05-15T11:36:50 IST" duration-ms="30044" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='COPY CODE']"}
+    </error>
+  </testcase> <!-- Move1_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Code1_offer" time="30.045">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&#039;COPY CODE&#039;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//button[text()='COPY CODE']}]
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//button[text()=&#039;COPY CODE&#039;]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='COPY CODE']"}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='COPY CODE']"}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
@@ -218,26 +160,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Code1_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:50 IST" name="run1" finished-at="2023-05-15T11:36:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Reback_offer()[pri:8, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:50 IST" name="Reback_offer" finished-at="2023-05-15T11:36:52 IST" duration-ms="1520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reback_offer -->
-        <test-method signature="Code2_offer()[pri:9, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:52 IST" name="Code2_offer" finished-at="2023-05-15T11:36:53 IST" duration-ms="1648" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Order medicines worth Rs.999 & get FLAT Rs.600 OFF on your first lab test] but found [PharmEasy™ Offers & Coupon Codes: Upto 80% OFF, Cashbacks & more]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Order medicines worth Rs.999 & get FLAT Rs.600 OFF on your first lab test] but found [PharmEasy™ Offers & Coupon Codes: Upto 80% OFF, Cashbacks & more]
+    </error>
+  </testcase> <!-- Code1_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Reback_offer" time="1.521"/>
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Code2_offer" time="1.649">
+    <failure message="expected [Order medicines worth Rs.999 &amp; get FLAT Rs.600 OFF on your first lab test] but found [PharmEasy™ Offers &amp; Coupon Codes: Upto 80% OFF, Cashbacks &amp; more]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [Order medicines worth Rs.999 & get FLAT Rs.600 OFF on your first lab test] but found [PharmEasy™ Offers & Coupon Codes: Upto 80% OFF, Cashbacks & more]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -279,30 +209,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Code2_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:52 IST" name="run1" finished-at="2023-05-15T11:36:52 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Move3_offer()[pri:10, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:53 IST" name="Move3_offer" finished-at="2023-05-15T11:37:23 IST" duration-ms="30031" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
+    </failure>
+  </testcase> <!-- Code2_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Move3_offer" time="30.031">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&#039;Get flat Rs.150 off on ICICI Debit &amp; Credit cards&#039;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']}]
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()=&#039;Get flat Rs.150 off on ICICI Debit &amp; Credit cards&#039;]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
@@ -365,34 +285,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Move3_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:36:53 IST" name="run1" finished-at="2023-05-15T11:36:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:37:23 IST" name="run1" finished-at="2023-05-15T11:37:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Table_offer()[pri:11, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:37:23 IST" name="Table_offer" finished-at="2023-05-15T11:37:53 IST" duration-ms="30015" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='OfferTable_offerTable__8E_ux']"}
+    </error>
+  </testcase> <!-- Move3_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Table_offer" time="30.016">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class=&#039;OfferTable_offerTable__8E_ux&#039;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//table[@class='OfferTable_offerTable__8E_ux']}]
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//table[@class=&#039;OfferTable_offerTable__8E_ux&#039;]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='OfferTable_offerTable__8E_ux']"}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='OfferTable_offerTable__8E_ux']"}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
@@ -455,202 +361,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Table_offer -->
-        <test-method signature="Q1_offer()[pri:12, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:37:53 IST" name="Q1_offer" finished-at="2023-05-15T11:38:23 IST" duration-ms="30029" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']"}
+    </error>
+  </testcase> <!-- Table_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Q3_offer" time="30.013">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&#039;Get flat Rs.150 off on ICICI Debit &amp; Credit cards&#039;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']}]
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()=&#039;Get flat Rs.150 off on ICICI Debit &amp; Credit cards&#039;]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']"}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at test_method.Pharmeasy_offermodule.Q1_offer(Pharmeasy_offermodule.java:209)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Q1_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:37:53 IST" name="run1" finished-at="2023-05-15T11:37:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:38:23 IST" name="run1" finished-at="2023-05-15T11:38:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Q2_offer()[pri:12, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:38:23 IST" name="Q2_offer" finished-at="2023-05-15T11:38:53 IST" duration-ms="30030" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='How to get updates about PharmEasy offers and discounts?']"}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='How to get updates about PharmEasy offers and discounts?']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='How to get updates about PharmEasy offers and discounts?']"}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='How to get updates about PharmEasy offers and discounts?']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at test_method.Pharmeasy_offermodule.Q2_offer(Pharmeasy_offermodule.java:222)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Q2_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:38:53 IST" name="run1" finished-at="2023-05-15T11:38:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method signature="Q3_offer()[pri:12, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:38:53 IST" name="Q3_offer" finished-at="2023-05-15T11:39:23 IST" duration-ms="30012" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.2', revision: '826dbfc730'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c133d50583621f35390ec668719444be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Get flat Rs.150 off on ICICI Debit & Credit cards']"}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
@@ -713,28 +437,159 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Q3_offer -->
-        <test-method is-config="true" signature="run1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:39:23 IST" name="run1" finished-at="2023-05-15T11:39:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run1 -->
-        <test-method is-config="true" signature="y()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:39:23 IST" name="y" finished-at="2023-05-15T11:39:24 IST" duration-ms="185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- y -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:39:24 IST" name="close" finished-at="2023-05-15T11:39:24 IST" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="close1()[pri:0, instance:test_method.Pharmeasy_offermodule@fa49800]" started-at="2023-05-15T11:39:24 IST" name="close1" finished-at="2023-05-15T11:39:24 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close1 -->
-      </class> <!-- test_method.Pharmeasy_offermodule -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
-</testng-results>
+    </error>
+  </testcase> <!-- Q3_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Q2_offer" time="30.030">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&#039;How to get updates about PharmEasy offers and discounts?&#039;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()=&#039;How to get updates about PharmEasy offers and discounts?&#039;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='How to get updates about PharmEasy offers and discounts?']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='How to get updates about PharmEasy offers and discounts?']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at test_method.Pharmeasy_offermodule.Q2_offer(Pharmeasy_offermodule.java:222)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+    </error>
+  </testcase> <!-- Q2_offer -->
+  <system-out/>
+  <testcase classname="test_method.Pharmeasy_offermodule" name="Q1_offer" time="30.029">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&#039;What are the latest offers &amp; coupon codes applicable on PharmEasy?&#039;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &#039;4.8.2&#039;, revision: &#039;826dbfc730&#039;
+System info: os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;17.0.5&#039;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()=&#039;What are the latest offers &amp; coupon codes applicable on PharmEasy?&#039;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be" type="org.openqa.selenium.NoSuchElementException">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c133d50583621f35390ec668719444be, findElement {using=xpath, value=//span[text()='What are the latest offers & coupon codes applicable on PharmEasy?']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\ISRIVA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58947/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c133d50583621f35390ec668719444be
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at test_method.Pharmeasy_offermodule.Q1_offer(Pharmeasy_offermodule.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+    </error>
+  </testcase> <!-- Q1_offer -->
+  <system-out/>
+</testsuite> <!-- test_method.Pharmeasy_offermodule -->
